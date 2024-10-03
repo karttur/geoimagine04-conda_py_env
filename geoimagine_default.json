@@ -1,0 +1,34 @@
+{
+  "postgresdb": {
+    "db": "geoimagine"
+  },
+  "userproject": {
+    "userid": "karttur",
+    "projectid": "karttur",
+    "tractid": "karttur",
+    "siteid": "*",
+    "plotid": "*",
+    "system": "system"
+  },
+  "process": [
+    {
+      "verbose": 2,
+      "overwrite": false,
+      "delete": false,
+      "acceptmissing": true,
+      "dryrun":false,
+      "gdalpath":"/Library/Frameworks/GDAL.framework/Programs",
+      "sagapath":"",
+      "wgetpath":"/usr/local/bin",
+      "inkscapepath": "/Applications/Inkscape.app/Contents/MacOS/inkscape",
+      "srcpath": {
+        "volume": "sewetland",
+        "hdr": "txt"
+      },
+      "dstpath": {
+        "volume": "sewetland",
+        "hdr": "txt"
+      }
+    }
+  ]
+}
