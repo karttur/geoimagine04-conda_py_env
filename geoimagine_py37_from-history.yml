@@ -1,0 +1,28 @@
+name: /Applications/anaconda3/envs/geoimagine_202110
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy
+  - geopandas
+  - h5py
+  - psycopg2
+  - rasterio
+  - fiona
+  - statsmodels
+  - numpy
+  - gdal
+  - matplotlib
+  - pandas
+  - numba
+  - pip
+  - xmltodict
+  - scipy
+  - netcdf4
+  - simplejson
+  - pypng
+  - svgwrite
+  - tqdm
+  - sphinx
+  - cdsapi
+prefix: /Applications/anaconda3/envs/geoimagine_202110
